@@ -1,0 +1,7 @@
+<section>
+    <h2 class="Head2">Resources</h2>
+    <ul class="Main">
+        <li><a href="https://fonts.google.com/noto/specimen/Noto+Sans+Mono?preview.script=Latn&preview.layout=grid&query=noto+sans+mono" target="_blank" rel="noopener noreferrer">Noto Sans Mono Font</a></li>
+        <li><a href="https://fonts.google.com/specimen/Google+Sans+Code?preview.layout=grid&categoryFilters=Appearance:%2FMonospace%2FMonospace&preview.script=Latn" target="_blank" rel="noopener noreferrer">GSCode Font</a></li>
+    </ul>
+</section>
