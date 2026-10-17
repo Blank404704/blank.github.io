@@ -1,7 +1,17 @@
-<section>
-    <h2 class="Head2">Resources</h2>
-    <ul class="Main">
-        <li><a href="https://fonts.google.com/noto/specimen/Noto+Sans+Mono?preview.script=Latn&preview.layout=grid&query=noto+sans+mono" target="_blank" rel="noopener noreferrer">Noto Sans Mono Font</a></li>
-        <li><a href="https://fonts.google.com/specimen/Google+Sans+Code?preview.layout=grid&categoryFilters=Appearance:%2FMonospace%2FMonospace&preview.script=Latn" target="_blank" rel="noopener noreferrer">GSCode Font</a></li>
-    </ul>
-</section>
+<!-- Reasource Links -->
+    <section>
+        <a href="https://fonts.google.com/noto/specimen/Noto+Sans+Mono?preview.script=Latn&preview.layout=grid&query=noto+sans+mono" target="_blank" rel="noopener noreferrer">Noto Sans Mono Font</a>
+        <a href="https://fonts.google.com/specimen/Google+Sans+Code?preview.layout=grid&categoryFilters=Appearance:%2FMonospace%2FMonospace&preview.script=Latn" target="_blank" rel="noopener noreferrer">Google Sans Code Font</a>
+    </section>
+<!-- End -->
+
+<!-- Embedded Styles -->
+    <meta name="description" content="A collection of links to Blank_404's online profiles and projects.">
+    <link rel="canonical" href="https://blank404704.github.io/blank.github.io/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="_404">
+    <meta property="og:description" content="A collection of links to Blank_404's online profiles and projects.">
+    <meta property="og:url" content="https://blank404704.github.io/blank.github.io/">
+    <meta property="og:image" content="./Blank_404.icon.ico">
+    <meta property="og:image:alt" content="_404 Lime Icon">
+<!-- End -->
