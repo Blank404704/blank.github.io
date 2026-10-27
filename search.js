@@ -1,5 +1,5 @@
 const projectDirectory = new URL("./Projects/", window.location.href);
-const homePage = new URL("./index.html", window.location.href);
+const homePage = new URL("../../index.html", projectDirectory);
 const projectStatuses = ["WIP", "Published", "Concept", "Blocked"];
 const resultsList = document.getElementById("project-results");
 const searchStatus = document.getElementById("project-search-status");
@@ -67,7 +67,7 @@ async function loadProjects() {
     }
 
     projects = await Promise.all(index.projects.map(async project => {
-        const url = new URL(project.link, window.location.href);
+        const url = new URL(project.link, projectDirectory);
         if (url.origin !== projectDirectory.origin ||
             (!url.pathname.startsWith(projectDirectory.pathname) && url.href !== homePage.href)) {
             throw new Error(`Project path must point inside the Projects folder or to the site home page: ${project.link}`);

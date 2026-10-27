@@ -2,11 +2,11 @@
 ## Code
 ### stylesheet link
 ```
-<link rel="stylesheet" href="../deafult-style.css">
+<link rel="stylesheet" href="./default-style.css">
 ```
 ### Background Image
 ```
-background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("./Banner.png");
+background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("./Images/Banner.png");
 background-position: center;
 background-size: cover;
 background-attachment: fixed;
