@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_404 | Catalogue</title>
+    <link rel="stylesheet" href="../default-style.css">
+</head>
+<body>
+    <!-- Welcome Message -->
+    <section>
+        <h1>Catalogue</h1>
+        <p>Here are all of the projects and concepts(mainly conecpts) that I have worked on/ made!</p>
+    </section>
+    <!-- end -->
+
+    <a href="./index.html">Home</a>
+
+    <!-- Project Search -->
+    <section>
+        <h2>Projects</h2>
+        <form id="project-search">
+            <label for="project-query">Search project pages</label>
+            <input id="project-query" type="search" placeholder="Search for a project...">
+        </form>
+        <ul class="project-status-legend" aria-label="Project status legend">
+            <li><span class="project-status project-status--wip">WIP</span></li>
+            <li><span class="project-status project-status--published">Published</span></li>
+            <li><span class="project-status project-status--concept">Concept</span></li>
+            <li><span class="project-status project-status--blocked">Blocked</span></li>
+        </ul>
+        <p id="project-search-status" aria-live="polite">Loading projects...</p>
+        <p id="project-results"></p>
+        <script src="../search.js" defer></script>
+    </section>
+    <!-- end -->
+</body>
+</html>

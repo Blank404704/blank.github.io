@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "title": "THE WEBSITE!!!",
+            "description": "YOUR ON IT!!!",
+            "link": "./index.html",
+            "status": "Published"
+        },
+        {
+            "title": "Web-World",
+            "description": "This is a project full of storys and information that make it dynamic and realistic.",
+            "link": "../Pages/Projects/WebW.html",
+            "status": "Concept"
+        },
+        {
+            "title": "Splendale",
+            "description": "A 3D game concept where the player is tasked with repairing an unfinished resort and amusement park.",
+            "link": "../Pages/Projects/Splendale.html",
+            "status": "Concept"
+        },
+        {
+            "title": "Nystrydso Sands",
+            "description": "This a show where based in a town called Nystrydso Sands, where five kids are slowly uncovering the mysteries of the town and its surroundings.",
+            "link": "../Pages/Projects/Nytrydso.html",
+            "status": "Concept"
+        },
+        {
+            "title": "DOT Workspace",
+            "description": "Details coming soon.",
+            "link": "../Pages/Projects/DOTWork.html",
+            "status": "Concept"
+        },
+        {
+            "title": "Samuel",
+            "description": "Details coming soon.",
+            "link": "../Pages/Projects/Samuel.html",
+            "status": "Concept"
+        }
+    ]
+}

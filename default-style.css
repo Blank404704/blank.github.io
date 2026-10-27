@@ -1,0 +1,156 @@
+/* Deafult Styles*/
+html {
+    display: block;
+}
+
+body {
+    display: flex;
+    min-height: calc(100vh + 25vh);
+    padding-bottom: 25vh;
+    box-sizing: border-box;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    font-family: JetBrains Mono, monospace;
+    font-size: 16px;
+    line-height: normal;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.65)), url("./Images/Banner.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+section {
+    display: block;
+    max-width: 50%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+}
+
+pre {
+    max-width: 100%;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    color: #000000;
+    display: block;
+    font-weight: bold;
+}
+h4,
+h5,
+h6 {
+    color: #484848;
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h1 {
+    margin-block: 0.67em;
+    font-size: 2em;
+}
+
+h2 {
+    margin-block: 0.83em;
+    font-size: 1.5em;
+}
+
+h3 {
+    margin-block: 1em;
+    font-size: 1.17em;
+}
+
+h4 {
+    margin-block: 1.33em;
+    font-size: 1em;
+}
+
+h5 {
+    margin-block: 1.67em;
+    font-size: 0.83em;
+}
+
+h6 {
+    margin-block: 2.33em;
+    font-size: 0.67em;
+}
+
+p {
+    display: block;
+    margin-block: 1em;
+}
+
+/* Text formatting */
+b,
+strong {
+    font-weight: bold;
+    color: #484848;
+}
+
+i,
+em {
+    font-style: italic;
+    color: #484848;
+}
+
+/* Links */
+a:link {
+    color: #0000ee;
+}
+
+a:visited {
+    color: #0000aa;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+/* Project statuses */
+.project-status-legend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.project-status {
+    display: inline-block;
+    padding: 0.15rem 0.55rem;
+    border: 1px solid currentColor;
+    border-radius: 999px;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+
+.project-status--wip {
+    color: #000000;
+    background-color: #fff1b8;
+}
+
+.project-status--published {
+    color: #000000;
+    background-color: #d9f4df;
+}
+
+.project-status--concept {
+    color: #000000;
+    background-color: #dcecff;
+}
+
+.project-status--blocked {
+    color: #000000;
+    background-color: #ffe0e0;
+}
