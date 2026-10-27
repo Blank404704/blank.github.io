@@ -27,7 +27,7 @@ background-attachment: fixed;
 ### Credits
 ```
 <!-- Font -->
-<a herf="https://fonts.google.com/specimen/JetBrains+Mono?preview.layout=grid&query=JetBrains+Mono" target="_blank">Jet Brains Mono</a>
+<a href="https://fonts.google.com/specimen/JetBrains+Mono?preview.layout=grid&query=JetBrains+Mono" target="_blank">Jet Brains Mono</a>
 ```
 ## Art
 ### Text Art 1
